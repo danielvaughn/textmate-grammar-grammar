@@ -1,0 +1,273 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Textmate Grammar Grammar",
+  "scopeName": "source.tgg",
+  "patterns": [
+    {
+      "name": "comment.line.double-slash",
+      "match": "//.*"
+    },
+    {
+      "name": "constant.other",
+      "match": "\\bconstant.other\\b"
+    },
+    {
+      "name": "constant.language",
+      "match": "\\bconstant.language\\b"
+    },
+    {
+      "name": "constant.character.escape",
+      "match": "\\bconstant.character.escape\\b"
+    },
+    {
+      "name": "constant.character",
+      "match": "\\bconstant.character\\b"
+    },
+    {
+      "name": "constant.numeric",
+      "match": "\\bconstant.numeric\\b"
+    },
+    {
+      "name": "constant",
+      "match": "\\bconstant\\b"
+    },
+
+
+    {
+      "name": "invalid.illegal",
+      "match": "\\binvalid.illegal\\b"
+    },
+    {
+      "name": "invalid.deprecated",
+      "match": "\\binvalid.deprecated\\b"
+    },
+    {
+      "name": "invalid",
+      "match": "\\binvalid\\b"
+    },
+
+
+    {
+      "name": "keyword.control",
+      "match": "\\bkeyword.control\\b"
+    },
+    {
+      "name": "keyword.operator",
+      "match": "\\bkeyword.operator\\b"
+    },
+    {
+      "name": "keyword.other",
+      "match": "\\bkeyword.other\\b"
+    },
+    {
+      "name": "keyword",
+      "match": "\\bkeyword\\b"
+    },
+
+
+    {
+      "name": "markup.other",
+      "match": "\\bmarkup.other\\b"
+    },
+    {
+      "name": "markup.raw",
+      "match": "\\bmarkup.raw\\b"
+    },
+    {
+      "name": "markup.quote",
+      "match": "\\bmarkup.quote\\b"
+    },
+    {
+      "name": "markup.list.numbered",
+      "match": "\\bmarkup.list.numbered\\b"
+    },
+    {
+      "name": "markup.list.unnumbered",
+      "match": "\\bmarkup.list.unnumbered\\b"
+    },
+    {
+      "name": "markup.list",
+      "match": "\\bmarkup.list\\b"
+    },
+    {
+      "name": "markup.italic",
+      "match": "\\bmarkup.italic\\b"
+    },
+    {
+      "name": "markup.heading",
+      "match": "\\bmarkup.heading\\b"
+    },
+    {
+      "name": "markup.bold",
+      "match": "\\bmarkup.bold\\b"
+    },
+    {
+      "name": "markup.underline.link",
+      "match": "\\bmarkup.underline.link\\b"
+    },
+    {
+      "name": "markup.underline",
+      "match": "\\bmarkup.underline\\b"
+    },
+    {
+      "name": "markup",
+      "match": "\\bmarkup\\b"
+    },
+
+
+    {
+      "name": "meta.function",
+      "match": "\\bmeta.function\\b"
+    },
+    {
+      "name": "meta",
+      "match": "\\bmeta\\b"
+    },
+
+
+    {
+      "name": "storage.modifier",
+      "match": "\\bstorage.modifier\\b"
+    },
+    {
+      "name": "storage.type",
+      "match": "\\bstorage.type\\b"
+    },
+    {
+      "name": "storage",
+      "match": "\\bstorage\\b"
+    },
+
+
+    {
+      "name": "string.quoted.single",
+      "match": "\\bstring.quoted.single\\b"
+    },
+    {
+      "name": "string.quoted.double",
+      "match": "\\bstring.quoted.double\\b"
+    },
+    {
+      "name": "string.quoted.triple",
+      "match": "\\bstring.quoted.triple\\b"
+    },
+    {
+      "name": "string.quoted.other",
+      "match": "\\bstring.quoted.other\\b"
+    },
+    {
+      "name": "string.quoted",
+      "match": "\\bstring.quoted\\b"
+    },
+    {
+      "name": "string.unquoted",
+      "match": "\\bstring.unquoted\\b"
+    },
+    {
+      "name": "string.interpolated",
+      "match": "\\bstring.interpolated\\b"
+    },
+    {
+      "name": "string.regexp",
+      "match": "\\bstring.regexp\\b"
+    },
+    {
+      "name": "string.other",
+      "match": "\\bstring.other\\b"
+    },
+    {
+      "name": "string",
+      "match": "\\bstring\\b"
+    },
+
+
+    {
+      "name": "support.function",
+      "match": "\\bsupport.function\\b"
+    },
+    {
+      "name": "support.class",
+      "match": "\\bsupport.class\\b"
+    },
+    {
+      "name": "support.type",
+      "match": "\\bsupport.type\\b"
+    },
+    {
+      "name": "support.constant",
+      "match": "\\bsupport.constant\\b"
+    },
+    {
+      "name": "support.variable",
+      "match": "\\bsupport.variable\\b"
+    },
+    {
+      "name": "support.other",
+      "match": "\\bsupport.other\\b"
+    },
+    {
+      "name": "support",
+      "match": "\\bsupport\\b"
+    },
+
+
+    {
+      "name": "variable.parameter",
+      "match": "\\bvariable.parameter\\b"
+    },
+    {
+      "name": "variable.language",
+      "match": "\\bvariable.language\\b"
+    },
+    {
+      "name": "variable.other",
+      "match": "\\bvariable.other\\b"
+    },
+    {
+      "name": "variable",
+      "match": "\\bvariable\\b"
+    },
+
+
+    {
+      "name": "entity.other.attribute-name",
+      "match": "\\bentity.attribute-name\\b"
+    },
+    {
+      "name": "entity.other.inherited-class",
+      "match": "\\bentity.inherited-class\\b"
+    },
+    {
+      "name": "entity.other",
+      "match": "\\bentity.other\\b"
+    },
+    {
+      "name": "entity.name.section",
+      "match": "\\bentity.name.section\\b"
+    },
+    {
+      "name": "entity.name.section",
+      "match": "\\bentity.name.section\\b"
+    },
+    {
+      "name": "entity.name.tag",
+      "match": "\\bentity.name.tag\\b"
+    },
+    {
+      "name": "entity.name.type",
+      "match": "\\bentity.name.type\\b"
+    },
+    {
+      "name": "entity.name.function",
+      "match": "\\bentity.name.function\\b"
+    },
+    {
+      "name": "entity.name",
+      "match": "\\bentity.name\\b"
+    },
+    {
+      "name": "entity",
+      "match": "\\bentity\\b"
+    }
+  ]
+}

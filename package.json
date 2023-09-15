@@ -1,0 +1,38 @@
+{
+  "name": "textmate-grammar-grammar",
+  "displayName": "Textmate Grammar Grammar",
+  "description": "Syntax highlighting for Textmate Grammar Grammar language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "publisher": "danielvaughn",
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielvaughn/textmate-grammar-grammar.git"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "tgg",
+        "aliases": [
+          "tgg"
+        ],
+        "extensions": [
+          "tgg"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "tgg",
+        "scopeName": "source.tgg",
+        "path": "./syntaxes/tgg.tmLanguage.json"
+      }
+    ]
+  }
+}
