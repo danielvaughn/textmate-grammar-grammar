@@ -1,5 +1,5 @@
 
-// this is the textmate language language
+// this is the textmate grammar grammar
 constant
 constant.numeric
 constant.numeric.character
