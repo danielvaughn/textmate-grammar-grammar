@@ -5,6 +5,9 @@ Yo dawg I heard you like Textmate grammars, so I made you a textmate grammar for
 Building a syntax highlighter for VSCode can be kind of annoying.
 To make it easier to understand the root groups and the scopes they create, I've created a grammar that lists out each scope as a language literal.
 
+This is intended to be used while creating either a syntax highlighter or a theme.
+Really handy for previewing.
+
 ## Example
 
 Rendered using the Abyss theme.
